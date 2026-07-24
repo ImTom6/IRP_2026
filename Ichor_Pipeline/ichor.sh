@@ -73,3 +73,7 @@ Rscript $ichor/scripts/runIchorCNA.R --id $patient \
   --includeHOMD False --chrs "c(1:22, \"X\")" --chrTrain "c(1:22)" \
   --estimateNormal True --estimatePloidy True --estimateScPrevalence True \
   --scStates "c(1,3)" --txnE 0.9999 --txnStrength 10000 --outDir $out_ichor
+  
+#4. Clean up files
+rm $in/${patient}_cat.bam
+rm $in_ichor/${patient}.wig
