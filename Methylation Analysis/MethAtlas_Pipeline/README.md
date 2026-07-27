@@ -6,6 +6,7 @@ Inputs:
 **Outputs:**
 
 **Requirements:**
+
 - Local installation of modkit (https://github.com/nanoporetech/modkit)
 - Local installation of wgbstools (https://github.com/nloyfer/wgbs_tools)
 - Local installation of UXM_deconv (https://github.com/nloyfer/UXM_deconv)
