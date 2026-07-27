@@ -10,9 +10,14 @@ Both pipelines output stacked bar charts estimating the proportions of different
 **Requirements:**
 
 - Local installation of modkit (https://github.com/nanoporetech/modkit)
-- Local installation of wgbstools (https://github.com/nloyfer/wgbs_tools)
-- Local installation of UXM_deconv (https://github.com/nloyfer/UXM_deconv)
-- Samtools on HPC environment 
+- Local installation of methatlas (https://github.com/nloyfer/meth_atlas)
+- Samtools on HPC environment
+- Htslib on HPC environment
+- Bedtools on HPC environment
 - Patient .bam files
 - If not already completed, requires a .txt file containing the list of bam files in the same directory
 - Can be created with ls *.bam > /file_list.txt
+- hg38 reference FASTA
+- Requires 450k manifest
+- Requires hg38.genome
+- Python3 on HPC
