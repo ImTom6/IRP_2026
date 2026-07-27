@@ -1,9 +1,11 @@
 
 
 
-Inputs: 
+**Input:**
+Both pipelines require all .bam files inside a directory along with a .txt listing the pathways for all files.
 
 **Outputs:**
+Both pipelines output stacked bar charts estimating the proportions of different tissue types, along with a .csv that can be used to produce your own graphs. 
 
 **Requirements:**
 
