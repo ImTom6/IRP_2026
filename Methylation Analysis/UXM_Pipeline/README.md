@@ -1,3 +1,4 @@
+**UXM_Deconv Pipeline**
 
 **Input:**
 Requires all .bam files inside a directory along with a .txt listing the pathways for all files.
@@ -14,4 +15,6 @@ Outputs stacked bar chart estimating the proportions of different tissue types, 
 - Patient .bam files
 - If not already completed, requires a .txt file containing the list of bam files in the same directory
 - Can be created with ls *.bam > /file_list.txt
+
+The pipeline can be run in full, or individual steps can be run (Found in UXM_Individual_Steps directory)
 
