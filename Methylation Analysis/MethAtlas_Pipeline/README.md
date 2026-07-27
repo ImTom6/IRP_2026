@@ -22,7 +22,8 @@ Outputs stacked bar chart estimating the proportions of different tissue types, 
 - Requires hg38.genome
 - Python3 on HPC
 
-  The pipeline can be run in full, or individual steps can be run (Found in MethAtlas_Individual_Steps directory)
+
+The pipeline can be run in full, or individual steps can be run (Found in MethAtlas_Individual_Steps directory)
 
 Caution:
 All code has been sanitized prior to uploading. Therefore, do not expect any code to run _as is_. You will need to alter directory pathways and file names where necessary. The pipelines have been designed in a way that places all of this information near the top, making it as easy as possible to get up and running.
