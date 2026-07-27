@@ -3,7 +3,7 @@
 
 Inputs: 
 
-Outputs:
+**Outputs:**
 
 **Requirements: **
 - Local installation of modkit (https://github.com/nanoporetech/modkit)
