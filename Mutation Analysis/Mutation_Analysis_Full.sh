@@ -16,6 +16,7 @@
 #Local installation of picard (https://github.com/broadinstitute/picard) [Version 2.20.1]
 #hg38 reference genome
 #R on HPC [Recommended v3.5.1 but v4.3.1 worked fine]
+#BEDTools2 on HPC [Version 2.31.0-nedc4o7]
 #Htslib on HPC for gunzip [Version 1.17-xwll33g]
 
 ############################################
@@ -35,6 +36,7 @@ mkdir -p $sample_dn/readstats
 #Load modules
 module load R
 module load htslib
+module load bedtools2/2.31.0-nedc4o7
 
 #Load local modules (Set Paths)
 fgbio=/Modules/fgbio-1.5.1.jar
@@ -238,6 +240,17 @@ $refs/hglft_genome_2a8a03_875af0.bed | \
 $VarDict_Folder/teststrandbias.R | \
 $VarDict_Folder/var2vcf_valid.pl -N $sid -E -f 0.001 \
 > $sample_dn/vd.vcf
+
+#21. Select only regions of interest
+bedtools intersect \
+-header \
+-u \
+-a $sample_dn/vd.vcf \
+-b $refs/ \  #Insert regions.bed in hg38 format
+> $sample_dn/vd.intersect_gene.vcf
+
+#Filter for header and only passed rows
+grep -E '^#|PASS' $sample_dn/vd.intersect_gene.vcf > $sample_dn/vd.intersect_pass.vcf
 
 #21. Annotate SNV and indel calls
 #java -jar $SnpSift annotate \
