@@ -1,6 +1,7 @@
-R code to take separate .csvs produced by pipelines and combine them into one plot for easier visual clarity.
+**R code to take separate .csvs produced by pipelines and combine them into one plot for easier visual clarity.**
 
 References:
+
 FC, M. and Davis, T.L. (2026) Ggpattern: 'Ggplot2' pattern geoms Available at: https://CRAN.R-project.org/package=ggpattern (Downloaded: 25 July 2026).
 
 Garnier, Simon, Ross, Noam, Rudis, Robert, Camargo, Pedro, A., Sciaini, Marco, Scherer and Cédric. (2024) Viridis(lite) - colorblind-friendly color maps for R Available at: https://sjmgarnier.github.io/viridis/ (Downloaded: 26 July 2026).
