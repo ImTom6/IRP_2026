@@ -109,9 +109,7 @@ $modkit summary $in/$file_name > $out_qc/${patient}_summary.txt
 $modkit pileup $in/$file_name $out_extract/${patient}.bedMethyl --ref $reference_genome --cpg --combine-strands --filter-threshold 0.75 --modified-bases 5mC --threads 8 --log-filepath $out_extract/${patient}.log
 
 
-#4. Filter
-
-#Filter out poor quality reads
+#4. Filter out poor quality reads
 awk '$10 >= 5' $in_filter/${patient}.bedMethyl > $out_filter/${patient}.filtered.bedMethyl
 
 
