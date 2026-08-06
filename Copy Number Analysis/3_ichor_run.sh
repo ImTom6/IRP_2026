@@ -27,12 +27,13 @@ out_ichor=/${patient}/results/ichor
 #######################################################
 
 #Execute the job code
+#3. Run Ichor
 Rscript $ichor/scripts/runIchorCNA.R --id $patient \
-  --WIG $in_ichor/${patient}.wig --ploidy "c(2,3)" --normal "c(0.5,0.6,0.7,0.8,0.9)" --maxCN 5 \
-  --gcWig $ichor/inst/extdata/gc_hg38_1000kb.wig \
-  --mapWig $ichor/inst/extdata/map_hg38_1000kb.wig \
+  --WIG $in_ichor/${patient}_50kb.wig --ploidy "c(2)" --normal "c(0.95, 0.99, 0.995, 0.999)" --maxCN 5 \
+  --gcWig $ichor/inst/extdata/gc_hg38_50kb.wig \
+  --mapWig $ichor/inst/extdata/map_hg38_50kb.wig \
   --centromere $ichor/inst/extdata/GRCh38.GCA_000001405.2_centromere_acen.txt \
-  --normalPanel $ichor/inst/extdata/HD_ULP_PoN_hg38_1Mb_median_normAutosome_median.rds \
-  --includeHOMD False --chrs "c(1:22, \"X\")" --chrTrain "c(1:22)" \
-  --estimateNormal True --estimatePloidy True --estimateScPrevalence True \
-  --scStates "c(1,3)" --txnE 0.9999 --txnStrength 10000 --outDir $out_ichor
+  --includeHOMD False --chrs "c(1:22)" --chrTrain "c(1:22)" \
+  --estimateScPrevalence False \
+  --estimateNormal True --estimatePloidy True \
+  --txnE 0.999999 --txnStrength 10000 --outDir $out_ichor
