@@ -31,7 +31,7 @@ ichor=/ichorCNA
 
 in=/${patient}
 
-mkdir -p $in/results/ichor
+mkdir -p $in/results/ichor -p $in/results/ichor/500k
 
 #=====================================================================
 
@@ -40,11 +40,11 @@ mkdir -p $in/results/ichor
 
 #2. Ichor Prep
 in_util=/${patient}
-out_util=/${patient}/results/ichor
+out_util=/${patient}/results/ichor/500k
 
 #3. Run Ichor
-in_ichor=/${patient}/results/ichor
-out_ichor=/${patient}/results/ichor
+in_ichor=/${patient}/results/ichor/500k
+out_ichor=/${patient}/results/ichor/500k
 
 
 ##############################################
@@ -65,7 +65,6 @@ $hmm_util/readCounter --window 500000 \
 --chromosome "chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chr20,chr21,chr22,chrX,chrY" $in_util/$file_name > $out_util/${patient}_500kb.wig
 
 #3. Run Ichor
-
 Rscript $ichor/scripts/runIchorCNA.R --id $patient \
   --WIG $in_ichor/${patient}_500kb.wig --ploidy "c(2)" --normal "c(0.95, 0.99, 0.995, 0.999)" --maxCN 5 \
   --gcWig $ichor/inst/extdata/gc_hg38_500kb.wig \
