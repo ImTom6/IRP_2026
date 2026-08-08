@@ -1,4 +1,4 @@
-Methylation analysis: can we predict the likely tissue or cell of origin, helping to direct the patient to the most appropriate clinic, MDT and diagnostic pathway?
+**Methylation analysis:**  can we predict the likely tissue or cell of origin, helping to direct the patient to the most appropriate clinic, and diagnostic pathway.
 
 Two pipelines were developed using two different programs:
 - **MethAtlas** (https://github.com/nloyfer/meth_atlas)
