@@ -9,7 +9,6 @@
 
 ############################################
 #REQUIREMENTS
-#Samtools on HPC environment
 #Sorted and indexed patient bam from step 1
 #Local installation of modkit (https://github.com/nanoporetech/modkit)
 #hg38 reference FASTA
