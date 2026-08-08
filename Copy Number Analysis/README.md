@@ -8,6 +8,8 @@
 
 **50kb_to_100kb.py:** Used to convert IchorCNA provided 50kb .wig files into 100kb .wig files, could be adapted to work with different window sizes.
 
+Caution: All code has been sanitized prior to uploading. Therefore, do not expect any code to run _as is_. You will need to alter directory pathways and file names where necessary. The pipelines have been designed in a way that places all of this information near the top, making it as easy as possible to get up and running.
+
 **References:**
 
 Adalsteinsson, V.A. et al. (2017) 'Scalable whole-exome sequencing of cell-free DNA reveals high concordance with metastatic tumors', Nature Communications, 8(1), pp. 1324–y. Available at: https://doi.org/10.1038/s41467-017-00965-y .
