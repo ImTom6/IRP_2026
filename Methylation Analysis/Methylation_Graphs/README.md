@@ -1,6 +1,6 @@
 **R code to take separate .csvs produced by pipelines and combine them into one plot for easier visual clarity.**
 
-References:
+**References:**
 
 FC, M. and Davis, T.L. (2026) Ggpattern: 'Ggplot2' pattern geoms Available at: https://CRAN.R-project.org/package=ggpattern (Downloaded: 25 July 2026).
 
@@ -15,3 +15,6 @@ Wickham, H., François, R., Henry, L., Müller, K. and Vaughan, D. (2026) Dplyr:
 Wickham, H., Lin Pedersen, T. and Seidel, D. (2025) Scales: Scale functions for visualization Available at: https://scales.r-lib.org (Downloaded: 28 July 2026).
 
 Wickham, H., Vaughan, D. and Girlich, M. (2026) Tidyr: Tidy messy data Available at: https://tidyr.tidyverse.org (Downloaded: 26 July 2026).
+
+
+This research used the ALICE High Performance Computing facility at the University of Leicester.
