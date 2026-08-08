@@ -1,17 +1,14 @@
 **Methylation analysis:**  Can we predict the likely tissue or cell of origin, helping to direct the patient to the most appropriate clinic, and diagnostic pathway.
 
-Two pipelines were developed using two different programs:
-- **MethAtlas** (https://github.com/nloyfer/meth_atlas)
-- **UXM_Deconv**(https://github.com/nloyfer/UXM_deconv)
+**Files -**
 
-**Input:**
-Both pipelines require all .bam files inside a directory along with a .txt listing the pathways for all files.
+**/MethAtlas_Pipeline:** Pipeline to predict tissue of origin developed using MethAtlas (https://github.com/nloyfer/meth_atlas)
 
-**Outputs:**
-Both pipelines output stacked bar charts estimating the proportions of different tissue types, along with a .csv that can be used to produce your own graphs. 
+**/UXM_Pipeline:** Pipeline to predict tissue of origin developed using UXM_Deconv (https://github.com/nloyfer/UXM_deconv)
+
+**/Methylation_Graphs:** Custom R script developed to compare and display all estimated tissue proportions of the patient samples produced from the same pipeline
+
 
 Specific requirements and citations can be found within the directories for each pipeline.
-
-
 
 This research used the ALICE High Performance Computing facility at the University of Leicester.
