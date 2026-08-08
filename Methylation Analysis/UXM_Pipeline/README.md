@@ -23,5 +23,13 @@ All code has been sanitized prior to uploading. Therefore, do not expect any cod
 
 **References:**
 
+Danecek, P. et al. (2021) 'Twelve years of SAMtools and BCFtools', GigaScience, 10(2), pp. giab008. doi: 10.1093/gigascience/giab008. Available at: https://doi.org/10.1093/gigascience/giab008 .
+
+Loyfer, N. et al. (2023) 'A DNA methylation atlas of normal human cell types', Nature, 613(7943), pp. 355–364. Available at: https://doi.org/10.1038/s41586-022-05580-6 .
+
+Loyfer, N., Rosenski, J. and Kaplan, T. (2026) 'Wgbstools: A computational suite for DNA methylation sequencing data analysis', Life Science Alliance, 9(4), pp. e202503514. doi: 10.26508/lsa.202503514. Print 2026 Apr. Available at: https://doi.org/10.26508/lsa.202503514 .
+
+Oxford Nanopore Technologies. (2026) Modkit Available at: https://github.com/nanoporetech/modkit (Downloaded: 15 June 2026).
+
 
 This research used the ALICE High Performance Computing facility at the University of Leicester.
