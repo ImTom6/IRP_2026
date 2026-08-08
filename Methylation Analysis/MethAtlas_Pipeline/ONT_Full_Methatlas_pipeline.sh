@@ -12,7 +12,6 @@
 #Local installation of modkit (https://github.com/nanoporetech/modkit)
 #Local installation of methatlas (https://github.com/nloyfer/meth_atlas)
 #Samtools on HPC environment
-#Htslib on HPC environment
 #Bedtools on HPC environment
 #Patient .bam files
 #If not already completed, requires a .txt file containing the list of bam files in the same directory
@@ -29,7 +28,6 @@ patient=
 
 #Load modules
 module load samtools/1.17-wenuvv5
-module load htslib/1.17-xwll33g  
 module load bedtools2/2.31.0-nedc4o7
 
 #Load local modules
