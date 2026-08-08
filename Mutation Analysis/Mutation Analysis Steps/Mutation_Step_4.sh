@@ -76,12 +76,3 @@ bedtools intersect \
 #Filter for header and only passed rows
 grep -E '^#|PASS' $sample_dn/vd.intersect_gene.vcf > $sample_dn/vd.intersect_pass.vcf
 
-#21. Annotate SNV and indel calls
-#java -jar $SnpSift annotate \
-#-dbsnp $sample_dn/vd_roi.vcf > $sample_dn/snpsift.vd.vcf
-
-#java -jar $snpEff \
-#-config $snpEff_Folder/snpEff.config \
-#-noStats -noLog -nodownload hg38 \
-#$sample_dn/snpsift.vd.vcf > $sample_dn/snpeff.vd.vcf
-
