@@ -1,3 +1,5 @@
+**Copy Number Analysis:** Can we identify genome wide gains and losses and estimate the proportion of tumour derived DNA in the five patient samples.
+
 This directory shows all code used to complete copy number analysis for all five sequenced patient samples. 
 
 **/Copy Number Full Pipelines:** Provides full pipelines for 50kb, 100kb, and 500kb window sizes.
