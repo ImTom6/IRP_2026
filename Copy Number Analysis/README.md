@@ -16,6 +16,6 @@ Lai D, Ha G and Shah S. (2026) HMMcopy: Copy number prediction with correction f
 
 R Core Team. (2023) R: A language and environment for statistical computing Available at: https://www.R-project.org/ (Downloaded: 28 May 2026).
 
--
+
 
 This research used the ALICE High Performance Computing facility at the University of Leicester.
