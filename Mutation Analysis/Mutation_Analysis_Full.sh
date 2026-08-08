@@ -12,7 +12,6 @@
 #Local installation of fgbio (https://github.com/fulcrumgenomics/fgbio) [Version 1.5.1]
 #Local installation of BWA (https://github.com/lh3/BWA) [Recommended v0.7.12-r1039 but v0.7.19-r1273 worked fine]
 #Local installation of VarDictJava (https://github.com/AstraZeneca-NGS/VarDictJava) [Recommended v1.5.0, but v1.8.3 (Final Version) worked fine] 
-#Local installation of snpEff and SnpSift (https://pcingola.github.io/SnpEff/) [Version 4.2]
 #Local installation of picard (https://github.com/broadinstitute/picard) [Version 2.20.1]
 #hg38 reference genome
 #R on HPC [Recommended v3.5.1 but v4.3.1 worked fine]
@@ -43,9 +42,6 @@ fgbio=/Modules/fgbio-1.5.1.jar
 bwa=/Modules/bwa/bwa
 VarDict=/Modules/VarDictJava/build/install/VarDict/bin/./VarDict
 VarDict_Folder=/Modules/VarDictJava/VarDict
-snpEff=/Modules/snpEff/./snpEff.jar
-SnpSift=/Modules/snpEff/./SnpSift.jar
-snpEff_Folder=/Modules/snpEff
 picard=/Modules/picard.jar
 
 #Set file path for reference genome
@@ -62,8 +58,6 @@ $bwa index $reference_genome
 
 #Change output to name of genome(.dict)
 java -jar $picard CreateSequenceDictionary R=$reference_genome O=$refs/genome.dict
-java -jar $snpEff download hg38
-
 
 ############################################
 #PART 1
