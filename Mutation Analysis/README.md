@@ -6,7 +6,7 @@
 
 **Mutation_Analysis_Full.sh:** Full pipeline including intermediate file cleanup
 
-Caution: All code has been sanitized prior to uploading. Therefore, do not expect any code to run as is. You will need to alter directory pathways and file names where necessary. The pipelines have been designed in a way that places all of this information near the top, making it as easy as possible to get up and running.
+Caution: All code has been sanitized prior to uploading. Therefore, do not expect any code to run _as is_. You will need to alter directory pathways and file names where necessary. The pipelines have been designed in a way that places all of this information near the top, making it as easy as possible to get up and running.
 
 
 **References:**
