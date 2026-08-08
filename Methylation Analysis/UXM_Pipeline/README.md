@@ -4,7 +4,7 @@
 Requires all .bam files inside a directory along with a .txt listing the pathways for all files.
 
 **Outputs:**
-Outputs stacked bar chart estimating the proportions of different tissue types, along with a .csv that can be used to produce your own graphs. 
+Outputs stacked bar chart estimating the proportions of different tissue types, along with a .csv that can be combined with other .csvs in Plot_UXM.R to produce one graph comparing all samples.
 
 **Requirements:**
 
