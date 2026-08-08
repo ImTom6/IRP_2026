@@ -1,5 +1,11 @@
 **R code to take separate .csvs produced by pipelines and combine them into one plot for easier visual clarity.**
 
+**Files -** 
+
+**Plot_MethAtlas.R:** Takes output .csvs for all patients from the MethAtlas pipeline, and plots composite bar chart of results
+
+**Plot_UXM.R:** Takes output .csvs for all patients from the UXM_Deconv pipeline, and plots composite bar chart of results
+
 **References:**
 
 FC, M. and Davis, T.L. (2026) Ggpattern: 'Ggplot2' pattern geoms Available at: https://CRAN.R-project.org/package=ggpattern (Downloaded: 25 July 2026).
