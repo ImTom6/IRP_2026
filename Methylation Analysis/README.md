@@ -1,4 +1,4 @@
-**Methylation analysis:**  Can we predict the likely tissue or cell of origin, helping to direct the patient to the most appropriate clinic, and diagnostic pathway.
+**Methylation analysis:**  Can we predict the likely tissue or cell of origin, helping to direct the patient to the most appropriate clinic, and diagnostic pathway. Analysis run on 5 patient samples along with a healthy control
 
 **Files -**
 
