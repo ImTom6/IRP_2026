@@ -9,4 +9,7 @@ Three analysis pathways were created with the aim of addressing different but co
 
 **Mutation Analysis:** Can we identify tumour associated mutations in the five patient samples.
 
+All files used along with their references can be found in the relevant directories.
+
+
 This research used the ALICE High Performance Computing facility at the University of Leicester.
