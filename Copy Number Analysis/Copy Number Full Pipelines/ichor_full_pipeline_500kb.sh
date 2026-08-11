@@ -31,6 +31,9 @@ ichor=/ichorCNA
 
 in=/${patient}
 
+#Set reference location for baseline if available
+refs=/ 
+
 mkdir -p $in/results/ichor -p $in/results/ichor/500k
 
 #=====================================================================
