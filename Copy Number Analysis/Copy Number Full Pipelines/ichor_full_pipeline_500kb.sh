@@ -70,7 +70,7 @@ Rscript $ichor/scripts/runIchorCNA.R --id $patient \
   --gcWig $ichor/inst/extdata/gc_hg38_500kb.wig \
   --mapWig $ichor/inst/extdata/map_hg38_500kb.wig \
   --centromere $ichor/inst/extdata/GRCh38.GCA_000001405.2_centromere_acen.txt \
-  --normalPanel $ichor/inst/extdata/HD_ULP_PoN_hg38_500kb_median_normAutosome_median.rds \ #Use baseline if available
+  --normalPanel $refs/ \ #Baseline used. If unavailable, use pre built baseline instead.
   --includeHOMD False --chrs "c(1:22)" --chrTrain "c(1:22)" \
   --estimateScPrevalence False \
   --estimateNormal True --estimatePloidy True \
