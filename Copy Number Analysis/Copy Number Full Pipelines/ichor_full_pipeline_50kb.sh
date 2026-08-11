@@ -70,7 +70,7 @@ Rscript $ichor/scripts/runIchorCNA.R --id $patient \
   --gcWig $ichor/inst/extdata/gc_hg38_50kb.wig \
   --mapWig $ichor/inst/extdata/map_hg38_50kb.wig \
   --centromere $ichor/inst/extdata/GRCh38.GCA_000001405.2_centromere_acen.txt \ 
-  --normalPanel $refs/ #Baseline used. If unavailable, use pre built baseline instead.
+  --normalPanel $refs/ \ #Baseline used. If unavailable, use pre built baseline instead.
   --includeHOMD False --chrs "c(1:22)" --chrTrain "c(1:22)" \
   --estimateScPrevalence False \
   --estimateNormal True --estimatePloidy True \
